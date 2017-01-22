@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="testApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Html</title>
+</head>
+<body ng-controller="testAppMainController">
+    <input type="text" ng-model="inp">
+    <input type="button" value="print" ng-click="printHeading()">
+    <h1>{{ heading }}</h1>
+    <script src="../angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
